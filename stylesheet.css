@@ -7,6 +7,7 @@
     font-family: "Comic Sans MS";
   }
 
+/* ----------------------------HEADER------------------------------- */
   header {
     height: 45px;
     width: 100%;
@@ -22,7 +23,8 @@
       color: white;
   }
 
-  .container{
+/* ----------------------------MAIN TOP------------------------------- */
+  .top-container{
       max-width: 1366px;
       width:100%;
       padding: 0px 12px;
@@ -33,11 +35,22 @@
       padding: 100px 40px 80px 40px;
       width: 1366px;
       height: 500px;
-      background-image: url(https://image.freepik.com/free-vector/illustration-web-design_53876-18157.jpg);
+      background-image: url(https://raw.githubusercontent.com/alvinadjie/ceb13/master/background.jpg);
       background-size: cover;
   }
-
-  .background{
-
-  }
   
+
+
+/* ----------------------------MAIN MIDDLE------------------------------- */
+
+
+
+
+
+/* ----------------------------MAIN BOTTOM------------------------------- */
+
+
+
+
+
+/* ----------------------------FOOTER------------------------------- */
