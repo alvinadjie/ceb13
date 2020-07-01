@@ -1,1 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Comic Sans MS";
+  }
 
+  header {
+    height: 45px;
+    width: 100%;
+    background-color: rgba(0, 75, 90, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .logo a{
+      display:inline;
+      text-decoration: none;
+      color: white;
+  }
+
+  .container{
+      max-width: 1366px;
+      width:100%;
+      padding: 0px 12px;
+      margin: 0 auto;
+  }
+
+  .top-wrapper{
+      padding: 100px 40px 80px 40px;
+      width: 1366px;
+      height: 500px;
+      background-image: url(https://image.freepik.com/free-vector/illustration-web-design_53876-18157.jpg);
+      background-size: cover;
+  }
+
+  .background{
+
+  }
+  
