@@ -1,29 +1,92 @@
 * {
     box-sizing: border-box;
   }
-  
+
   body {
     margin: 0;
     font-family: "TW Cen MT";
   }
 
 /* ----------------------------HEADER------------------------------- */
-  header {
-    height: 45px;
-    width: 100%;
-    background-color: rgba(0, 75, 90, 0.9);
-    position :fixed;
-    top: 0;
-    z-index: 10;
-  }
+header {
+  height: 45px;
+  width: 100%;
+  background-color: rgba(0, 75, 90, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
 
-  .logo a{
-      display:inline;
-      text-decoration: none;
-      color: white;
-  }
+.logo a{
+    display:inline;
+    text-decoration: none;
+    color: white;
+}
 
 /* ----------------------------MAIN TOP------------------------------- */
+<<<<<<< HEAD
+.top-wrapper{
+    padding: 20px 0px 80px 0px;
+    max-width: 1366px;
+    height: 800px;
+    background-image: url(https://github.com/alvinadjie/ceb13/blob/master/background.jpg?raw=true);
+    background-size: cover;
+}
+
+.top-container{
+  width:100%;
+  height:450px;
+  padding:0px 70px;
+  display:flex;
+  
+}
+
+.banner{
+    background-color: rgba(255, 255, 255, 0.7);
+    width:100%;
+    height:100px;
+    text-align: center;
+    letter-spacing: 15px;
+    line-height: 100px;
+    position:relative;
+}
+
+.text-container{
+  opacity:0.9;
+  width:100%;
+  padding-top:150px;
+  padding-left:50px;
+}
+
+.text-container h1{
+  font-weight:1000;
+  font-size:30px;
+  padding-bottom:10px;
+  text-align: center;
+}
+
+.text-container p{
+  width:100%;
+  font-size:20px;
+  line-height:30px;
+  text-align:center;
+  padding-bottom:10px
+}
+
+span{
+  color:red;
+  font-weight:1000;
+}
+
+.image-container{
+  padding-top:20px;
+  width:100%;
+  padding-left:50px;
+  display:flex;
+  flex-direction:column;
+  
+}
+=======
   .top-wrapper{
       padding: 20px 0px 80px 0px;
       max-width: 1366px;
@@ -31,15 +94,17 @@
       background-image: url(https://github.com/alvinadjie/ceb13/blob/master/background.jpg?raw=true);
       background-size: cover;
   }
-  
+
   .top-container{
     width:100%;
     height:450px;
     padding:0px 70px;
     display:flex;
-    
+
   }
 
+<<<<<<< HEAD
+=======
   .banner{
       background-color: rgba(255, 255, 255, 0.7);
       width:100%;
@@ -49,6 +114,7 @@
       line-height: 100px;
       position:relative;
   }
+<<<<<<< HEAD
   
   .banner h1{
     font-size:32px;
@@ -62,20 +128,24 @@
     background-size: 75% 2px;
   }
   
+=======
+
+>>>>>>> a91c7daecb13d9d42b5009abac5e5910c4220262
+>>>>>>> 4c6ea747904f255113984f837ae22ed7e6165fd1
   .text-container{
     opacity:0.9;
     width:100%;
     padding-top:150px;
     padding-left:50px;
   }
-  
+
   .text-container h1{
     font-weight:1000;
     font-size:30px;
     padding-bottom:10px;
     text-align: center;
   }
-  
+
   .text-container p{
     width:100%;
     font-size:20px;
@@ -83,42 +153,102 @@
     text-align:center;
     padding-bottom:10px
   }
-  
+
   span{
     color:red;
     font-weight:1000;
   }
-  
+
   .image-container{
     padding-top:20px;
     width:100%;
     padding-left:50px;
     display:flex;
     flex-direction:column;
-    
+
   }
-  
+
   .image{
     width:380px;
     height:180px;
     padding-bottom:30px;
     transition:1s ease;
   }
-  
+
   .left{
     width:100%;
     padding-right:120px;
   }
-  
+
   .right{
     width:100%;
     padding-left:150px;
   }
+>>>>>>> b0c96ae93e288f96042a49561d76f41d4e7374ba
+
+.image{
+  width:380px;
+  height:180px;
+  padding-bottom:30px;
+}
+
+.left{
+  width:100%;
+  padding-right:120px;
+}
+
+.right{
+  width:100%;
+  padding-left:150px;
+}
 
 
 /* ----------------------------MAIN MIDDLE------------------------------- */
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  /* Ubah property text-align ke center */
+  text-align: center;
+}
 
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
 
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+/* Tambahkan CSS untuk lesson-icon */
+.lesson-icon {
+  position: relative;
+}
+
+/* Tambahkan CSS untuk tag <p> didalam lesson-icon */
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+/* Tambahkan CSS untuk txt-contents */
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+  
+}
 
 
 
@@ -129,3 +259,18 @@
 
 
 /* ----------------------------FOOTER------------------------------- */
+footer {
+  width: 100%;
+}
+
+.footer-left {
+  float: left;
+  padding: 40px 40px;
+  margin-left: 100px;
+}
+
+.footer-right {
+  float: right;
+  padding: 40px 40px;
+  margin-right: 100px;
+}
