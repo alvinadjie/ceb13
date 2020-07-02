@@ -17,10 +17,14 @@ header {
   z-index: 10;
 }
 
-.logo a{
-    display:inline;
-    text-decoration: none;
+.logo p {
+    font-weight: bold;
     color: white;
+    text-align: center;
+    font-size: 24px;
+    opacity: 0.8;
+    line-height: 0.01;
+    letter-spacing: 10px;
 }
 
 /* ----------------------------MAIN TOP------------------------------- */
@@ -38,7 +42,7 @@ header {
   height:450px;
   padding:0px 70px;
   display:flex;
-  
+
 }
 
 .banner{
@@ -84,7 +88,7 @@ span{
   padding-left:50px;
   display:flex;
   flex-direction:column;
-  
+
 }
 
   .top-wrapper{
@@ -104,7 +108,7 @@ span{
     line-height: 100px;
     position:relative;
 }
-  
+
 .banner h1{
 font-size:32px;
 text-shadow: 0 0 #CB2402, .08em 0 0 #fff, 0 0, -.08em 0 0 #fff;
@@ -116,7 +120,7 @@ transition: .3s ease;
 .banner h1:hover{
 background-size: 75% 2px;
 }
-  
+
 .image{
 width:380px;
 height:180px;
@@ -173,12 +177,12 @@ padding-left:150px;
 
 /* Tambahkan CSS untuk txt-contents */
 .txt-contents {
-  width: 80%;
+  width: 70%;
   display: inline-block;
   margin-top: 20px;
   font-size: 15px;
   color: #b3aeb5;
-  
+
 }
 
 
@@ -229,11 +233,12 @@ padding-left:150px;
   38% {margin-top: -100px;}
   66% {margin-top: -100px;}
   71% {margin-top: 0px;}
-  100% {margin-top: 0px;}     
+  100% {margin-top: 0px;}
 }
 /* ----------------------------FOOTER------------------------------- */
 footer {
   width: 100%;
+  border-top: 1px solid #82ccdd
 }
 
 .footer-left {
