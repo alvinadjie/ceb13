@@ -1,1 +1,32 @@
-
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .banner{
+       background-color: rgba(255, 255, 255, 0.7);
+       width:100%;
+       height:100px;
+       text-align: center;
+       letter-spacing: 10px;
+       line-height: 100px;
+       position:relative;
+   }
+   
+    .banner h1{
+     font-size:21px;
+     padding-top:10px;
+     text-shadow: 0 0 #CB2402, .08em 0 0 #fff, 0 0, -.08em 0 0 #fff;
+     background: linear-gradient(#999, #999) center 3.6em no-repeat;
+     background-size: 0% 3px;
+     transition: .3s ease;
+   }
+ }
+ 
+ /* Untuk Smartphone */
+ @media all and (max-width: 670px) {
+   .header-right {
+     display: none;
+   }
+   
+   .menu-icon {
+     display: block;
+   }
+ }
