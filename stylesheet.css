@@ -24,7 +24,7 @@ header {
 }
 
 /* ----------------------------MAIN TOP------------------------------- */
-<<<<<<< HEAD
+
 .top-wrapper{
     padding: 20px 0px 80px 0px;
     max-width: 1366px;
@@ -86,7 +86,7 @@ span{
   flex-direction:column;
   
 }
-=======
+
   .top-wrapper{
       padding: 20px 0px 80px 0px;
       max-width: 1366px;
@@ -95,113 +95,44 @@ span{
       background-size: cover;
   }
 
-  .top-container{
+.banner{
+    background-color: rgba(255, 255, 255, 0.7);
     width:100%;
-    height:450px;
-    padding:0px 70px;
-    display:flex;
-
-  }
-
-<<<<<<< HEAD
-=======
-  .banner{
-      background-color: rgba(255, 255, 255, 0.7);
-      width:100%;
-      height:100px;
-      text-align: center;
-      letter-spacing: 15px;
-      line-height: 100px;
-      position:relative;
-  }
-<<<<<<< HEAD
-  
-  .banner h1{
-    font-size:32px;
-    text-shadow: 0 0 #CB2402, .08em 0 0 #fff, 0 0, -.08em 0 0 #fff;
-    background: linear-gradient(#999, #999) center 2.09em no-repeat;
-    background-size: 0% 3px;
-    transition: .3s ease;
-  }
-  
-  .banner h1:hover{
-    background-size: 75% 2px;
-  }
-  
-=======
-
->>>>>>> a91c7daecb13d9d42b5009abac5e5910c4220262
->>>>>>> 4c6ea747904f255113984f837ae22ed7e6165fd1
-  .text-container{
-    opacity:0.9;
-    width:100%;
-    padding-top:150px;
-    padding-left:50px;
-  }
-
-  .text-container h1{
-    font-weight:1000;
-    font-size:30px;
-    padding-bottom:10px;
+    height:100px;
     text-align: center;
-  }
+    letter-spacing: 15px;
+    line-height: 100px;
+    position:relative;
+}
+  
+.banner h1{
+font-size:32px;
+text-shadow: 0 0 #CB2402, .08em 0 0 #fff, 0 0, -.08em 0 0 #fff;
+background: linear-gradient(#999, #999) center 2.09em no-repeat;
+background-size: 0% 3px;
+transition: .3s ease;
+}
 
-  .text-container p{
-    width:100%;
-    font-size:20px;
-    line-height:30px;
-    text-align:center;
-    padding-bottom:10px
-  }
-
-  span{
-    color:red;
-    font-weight:1000;
-  }
-
-  .image-container{
-    padding-top:20px;
-    width:100%;
-    padding-left:50px;
-    display:flex;
-    flex-direction:column;
-
-  }
-
-  .image{
-    width:380px;
-    height:180px;
-    padding-bottom:30px;
-    transition:1s ease;
-  }
-
-  .left{
-    width:100%;
-    padding-right:120px;
-  }
-
-  .right{
-    width:100%;
-    padding-left:150px;
-  }
->>>>>>> b0c96ae93e288f96042a49561d76f41d4e7374ba
-
+.banner h1:hover{
+background-size: 75% 2px;
+}
+  
 .image{
-  width:380px;
-  height:180px;
-  padding-bottom:30px;
+width:380px;
+height:180px;
+padding-bottom:30px;
+transition:1s ease;
 }
 
 .left{
-  width:100%;
-  padding-right:120px;
+width:100%;
+padding-right:120px;
 }
 
 .right{
-  width:100%;
-  padding-left:150px;
+width:100%;
+padding-left:150px;
 }
-
 
 /* ----------------------------MAIN MIDDLE------------------------------- */
 .lesson-wrapper {
