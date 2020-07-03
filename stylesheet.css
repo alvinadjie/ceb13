@@ -286,16 +286,19 @@ width:100%;
 footer {
   width: 100%;
   border-top: 2px solid #82ccdd;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .footer-left {
-  float: left;
+  /* float: left; */
   padding: 40px 40px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 
 .footer-right {
-  float: right;
+  /* float: right; */
   padding: 40px 40px;
-  margin-right: 100px;
+  /* margin-right: 100px; */
 }
