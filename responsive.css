@@ -74,4 +74,17 @@
         position: absolute;
     }
 
+    .menu-icon{
+        display:block !important;
+        color:white;
+        float:right;
+        margin-top:15px;
+    }
+    .menu-icon:hover{
+        color:rgb(168, 168, 168);
+    }
+    .header-right{
+        display:none;
+    }
+
  }

@@ -21,6 +21,18 @@ header {
   float:left;
   transition: 1s ease;
 }
+.container{
+    padding:0px 30px;
+}
+
+.header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
 
 .img-logo{
     height:100%;
@@ -35,8 +47,13 @@ header {
     height:40px;
 }
 
+.menu-icon{
+    display:none !important;
+    
+  }
+
 header:hover{
-    background-color: rgba(247, 0, 0, 0.9);
+    background-color: rgba(0, 34, 34, 0.9);
 }
 
 /* ----------------------------MAIN TOP------------------------------- */
@@ -110,6 +127,19 @@ a:hover{
     color:rgba(247, 0, 0, 1);
     background-color: rgba(0, 0, 0, 0);
 }
+.header-menu, .login{
+    font-weight:20px;
+    font-size:15px;
+    color:rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    padding: 0px 4px;
+    transition: all .5s;
+    background-color: transparent !important;
+    line-height: 45px;
+  }
+  .header-menu:hover, .login:hover{
+    color:rgb(207, 204, 204);
+  }
 
 .image-container{
   padding-top:20px;
