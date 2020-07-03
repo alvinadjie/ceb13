@@ -52,8 +52,10 @@
 
     .text-container {
         width:100%;
+        padding-top:10px;
         padding-left: 0px;
         margin: auto;
+        height: max-content;
     }
 
     .text-container h1{
@@ -62,16 +64,32 @@
 
     .text-container p{
         text-align: center;
+        font-size:22px;
     }
-    
+
     .image-container {
         padding-top: 20px;
-        width: 50%;
-        height: 100%;
-        padding-left: 50px;
+        width: 100%;
+        padding-left: 0px;
         display: flex;
-        flex-direction: column;
-        position: absolute;
+        flex-direction: row;
+        
+    }
+
+    .image{
+        width:100%;
+    }
+    
+    .container right{
+        height: auto;
+        width: 33%;
+        margin: auto;
+    }
+
+    .container left{
+        height: auto;
+        width: 33%;
+        margin: auto;
     }
 
     .menu-icon{
@@ -87,4 +105,31 @@
         display:none;
     }
 
+    .lesson {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        border-top: 2px solid #82ccdd;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .footer-left {
+        /* float: left; */
+        width: 100%;
+        padding: 10px 10px;
+        text-align: center;
+        /* margin-left: 100px; */
+    }
+
+    .footer-right {
+        /* float: right; */
+        padding: 10px 10px;
+        width: 100%;
+        /* margin-right: 100px; */
+        text-align: center;
+    }
  }
