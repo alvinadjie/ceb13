@@ -40,7 +40,7 @@
  /* Untuk Smartphone */
  @media all and (max-width: 670px) {
     .banner h1 {
-        font-size: 15px;
+        font-size: 12px;
         padding-top: 0px;
         background: linear-gradient(#999, #999) center 4.2em no-repeat;
         background-size: 0% 3px;
@@ -60,6 +60,10 @@
 
     .text-container h1{
         text-align: center;
+        font-size:25px;
+    }
+    .slider-wrapper{
+        font-size:35px;
     }
 
     .text-container p{
