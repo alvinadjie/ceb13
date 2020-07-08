@@ -192,6 +192,7 @@ width:100%;
   background-color: #f7f7f7;
   /* Ubah property text-align ke center */
   text-align: center;
+  overflow: auto;
 }
 
 .heading {
