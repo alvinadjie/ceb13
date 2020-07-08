@@ -193,6 +193,7 @@ width:100%;
   /* Ubah property text-align ke center */
   text-align: center;
   overflow: auto;
+  height: auto;
 }
 
 .heading {
