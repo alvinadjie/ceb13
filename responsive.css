@@ -34,16 +34,26 @@
 
     .lesson {
         width: 50%;
+        height: 320px;
     }
  }
  
  /* Untuk Smartphone */
  @media all and (max-width: 670px) {
+    .banner{
+        height:80px;
+        letter-spacing: 2px;
+    }
+
     .banner h1 {
         font-size: 12px;
         padding-top: 0px;
         background: linear-gradient(#999, #999) center 4.2em no-repeat;
         background-size: 0% 3px;
+    }
+
+    .banner h1:hover{
+        background-size: 0% 2px;
     }
 
     .top-container{
@@ -69,6 +79,7 @@
     .text-container p{
         text-align: center;
         font-size:22px;
+        line-height: 30px;
     }
 
     .image-container {
@@ -111,6 +122,14 @@
 
     .lesson {
         width: 100%;
+    }
+
+    .slider-wrapper{
+        font-size: 20px;
+    }
+
+    .slider div {
+        padding: 2px 0px;
     }
 
     footer {
